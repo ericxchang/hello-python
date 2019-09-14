@@ -1,6 +1,6 @@
 import database as db
 
-db = db.Database(
+myDB = db.Database(
     user="dashboard",
     password="dashboard",
     host="localhost",
@@ -8,9 +8,9 @@ db = db.Database(
     database="dashboard"
 )
 
-result = db.query("select * from operations.user_definition")
+result = myDB.query("select * from operations.user_definition")
 
 for row in result:
     print(row, "\n")
 
-db.close()
+myDB.close()
