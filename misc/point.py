@@ -17,6 +17,8 @@ class Point:
         return math.sqrt((self.x - other.x)**2 + (self.y - other.y)**2)
 
 
+print("__name__ value: ", __name__)
+
 point1 = Point()
 point2 = Point(1, 2)
 point1.reset()

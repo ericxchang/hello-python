@@ -2,7 +2,7 @@ import util.database as db
 
 print("__name__ value: ", __name__)
 def main():
-    print("Query uder_definition ...\n")
+    print("Query user_definition ...\n")
     myDB = db.Database(
         user="dashboard",
         password="dashboard",
