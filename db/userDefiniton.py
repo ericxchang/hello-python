@@ -1,6 +1,6 @@
-from .database import Database
+import database as db
 
-db = Database(
+db = db.Database(
     user="dashboard",
     password="dashboard",
     host="localhost",

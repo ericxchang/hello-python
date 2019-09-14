@@ -1,7 +1,6 @@
 import psycopg2
 
-
-class Database:
+class Database():
     def __init__(self, **kwargs):
         self.connect(**kwargs)
 
