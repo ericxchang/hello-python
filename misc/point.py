@@ -1,6 +1,8 @@
 import math
 
 'two dimensional point geometric coordinates'
+
+
 class Point:
     def __init__(self, x=0, y=0):
         self.move(x, y)
@@ -14,7 +16,7 @@ class Point:
         self.y = y
 
     def distance(self, other):
-        return math.sqrt((self.x - other.x)**2 + (self.y - other.y)**2)
+        return math.sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
 
 
 print("__name__ value: ", __name__)
