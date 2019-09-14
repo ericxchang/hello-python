@@ -1,4 +1,4 @@
-from .util import database as db
+import util.database as db
 
 print("__name__ value: ", __name__)
 def main():
